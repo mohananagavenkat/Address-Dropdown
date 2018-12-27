@@ -21,9 +21,16 @@ input,select{
     display: block;
     width:100%;
     background: rgba(163, 160, 163, 0.267);
-    padding:.7rem;
+    padding:.7rem .4rem;
     margin-bottom:1.5rem;
+    border:none;
 }
 input:last-child,select:last-child{
     margin-bottom: 0;
+}
+label{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem;
 }

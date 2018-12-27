@@ -12,11 +12,26 @@
 <body>
     <div class="address-form-wrapper">
         <form id="address_form">
-            <select name="country" id="country"></select>
-            <select name="state" id="state"></select>
-            <select name="city" id="city"></select>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">Select Country</option>
+            </select>
+            <label for="state">State</label>
+            <select name="state" id="state">
+                <option value="">Select State</option>
+            </select>
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="">Select City</option>
+            </select>
+            <label for="pincode">Pincode</label>
+            <input type="number" id="pincode" name="pincode" placeholder="Enter Pincode">
         </form>
     </div>
+    <script src="./data/countries.js"></script>
+    <script src="./data/states.js"></script>
+    <script src="./data/cities.js"></script>
+    <script src="./js/address_dropdown.js"></script>
 </body>
 
 </html>
